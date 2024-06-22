@@ -61,10 +61,16 @@ body {
 
 @media only screen and (max-width: 1024px) {
    h1 {
-      font-size: 22px;
+      font-size: 18px;
    }
 
-   p, li, button {
-      font-size: 16px;
+   p, button, li {
+      font-size: 14px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   h1 {
+      font-size: 20px;
    }
 }
